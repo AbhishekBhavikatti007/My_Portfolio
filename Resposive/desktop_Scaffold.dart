@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:my_protfolio/Widgets/SizbedBox2.dart';
 import 'package:my_protfolio/Widgets/SizedBox1.dart';
 import 'package:my_protfolio/constatn/constant.dart';
+
+
 
 class DesktopScaffold extends StatefulWidget {
   const DesktopScaffold({super.key});
@@ -26,6 +29,7 @@ class _DesktopScaffoldState extends State<DesktopScaffold> {
           myDrawer,
           Expanded(
             child: ListView(
+              physics: BouncingScrollPhysics(),
               children: [
                 SizedBox1(),
                 Sizbedbox2(),

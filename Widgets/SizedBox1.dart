@@ -50,7 +50,7 @@ class SizedBox1 extends StatelessWidget {
                                 ),
                                 //About me Text Button
                                 Padding(
-                                  padding: const EdgeInsets.only(left: 41),
+                                  padding: EdgeInsets.only(left: 42 ),
                                   child: Align(
                                     alignment: Alignment.bottomLeft,
                                     child: SizedBox(
