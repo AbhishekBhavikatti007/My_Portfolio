@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:my_protfolio/Widgets/SizbedBox2.dart';
+import 'package:my_protfolio/Data/mySkills_Data.dart';
+import 'package:my_protfolio/Widgets/SizedBox2.dart';
+import 'package:my_protfolio/Widgets/SizedBox3_MySkills.dart';
 import 'package:my_protfolio/Widgets/SizedBox1.dart';
 import 'package:my_protfolio/constatn/constant.dart';
 
@@ -32,7 +33,8 @@ class _DesktopScaffoldState extends State<DesktopScaffold> {
               physics: BouncingScrollPhysics(),
               children: [
                 SizedBox1(),
-                Sizbedbox2(),
+                SizedBox2(),
+                SizedBox3_MySkills(myTechnicalSkill: myTechnicalSkills, mySoftSkills: mySoftSkills,deviceHeigth: deviceHeigth,deviceWidth: deviceWidth,)
               ],
             ),
           )

@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 
-
+var deviceHeigth;
+var deviceWidth;
+Color HeadingColor = Color.fromARGB(251, 18, 17, 17);
+double HeadingFontSize = 52;
 double bothSidePadding = 15;
 
 var myAppBar = AppBar(

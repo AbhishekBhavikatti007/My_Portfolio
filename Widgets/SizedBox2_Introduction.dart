@@ -2,15 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:my_protfolio/constatn/constant.dart';
 
 // ignore: must_be_immutable
-class Sizbedbox2 extends StatefulWidget {
+class SizedBox2 extends StatefulWidget {
   
-  Sizbedbox2({super.key,});
+  SizedBox2({super.key,});
 
   @override
-  State<Sizbedbox2> createState() => _Sizbedbox2State();
+  State<SizedBox2> createState() => _SizedBox2State();
 }
 
-class _Sizbedbox2State extends State<Sizbedbox2> {
+class _SizedBox2State extends State<SizedBox2> {
   bool hoverValue = true;
   var deviceHeigth;
   var deviceWidth;
