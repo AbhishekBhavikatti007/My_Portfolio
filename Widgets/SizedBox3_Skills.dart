@@ -24,7 +24,7 @@ class SizedBox3_MySkills extends StatelessWidget {
           padding: const EdgeInsets.all(18.0),
           child: Column(
             children: [
-              Text('My Skills',style: TextStyle(fontSize: HeadingFontSize,fontWeight: FontWeight.bold, color:HeadingColor ),),
+              Text('My Skills',style: TextStyle(fontSize: HeadingFontSize,fontWeight: FontWeight.bold, color:HeadingColor ,decoration: TextDecoration.underline),),
               SizedBox(height: 24,),
               Text('Tiles   in    blue    are   some    of    my    major   skills',style: TextStyle(fontSize:deviceWidth* 0.016,color: Colors.blue),),
               SizedBox(height: 24,),

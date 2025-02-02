@@ -20,7 +20,7 @@ class Sizedbox4Projects extends StatelessWidget {
     deviceWidth = MediaQuery.of(context).size.width;
     return Padding(
       padding: EdgeInsets.symmetric(horizontal: bothSidePadding),
-      child: Container(
+      child: SizedBox(
         width: deviceWidth,
         height: deviceHeigth,
         // color: Colors.amber,
@@ -31,7 +31,7 @@ class Sizedbox4Projects extends StatelessWidget {
             Text(
               'My Practice Projects',
               style: TextStyle(
-                  fontSize: HeadingFontSize, fontWeight: FontWeight.bold),
+                  fontSize: HeadingFontSize, fontWeight: FontWeight.bold,decoration: TextDecoration.underline),
             ),
             // Second Text and Image
             Row(
